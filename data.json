@@ -1,0 +1,166 @@
+{
+  "user": {
+    "name": "Alex"
+  },
+  "appointments": [
+    {
+      "date": "2025-11-15",
+      "title": "Blutentnahme",
+      "doctor": "Dr. Schmidt",
+      "address": "Hauptstraße 14, 80333 München",
+      "time": "14:00",
+      "confirmed": true
+    },
+    {
+      "date": "2025-12-03",
+      "title": "Urologe",
+      "doctor": "Dr. Weber",
+      "address": "Schillerplatz 3, 80336 München",
+      "time": "10:30",
+      "confirmed": true
+    },
+    {
+      "date": "2026-01-20",
+      "title": "Vorsorge-Check-up",
+      "doctor": "Dr. Müller",
+      "address": "Leopoldstraße 42, 80802 München",
+      "time": "09:00",
+      "confirmed": true
+    },
+    {
+      "date": "2026-04-08",
+      "title": "Augenarzt",
+      "doctor": "Dr. Klein",
+      "address": "Marienplatz 1, 80331 München",
+      "time": "16:00",
+      "confirmed": false
+    }
+  ],
+  "vaccinations": [
+    {
+      "name": "Borreliose",
+      "subtitle": "Auffrischung",
+      "last": "15.01.2023",
+      "status": "due_soon",
+      "due_text": "in 2 Monaten fällig"
+    },
+    {
+      "name": "Tetanus",
+      "subtitle": "Auffrischung",
+      "last": "15.01.2023",
+      "status": "due_later",
+      "due_text": "in 6 Monaten fällig"
+    },
+    {
+      "name": "Masern",
+      "subtitle": "letzte Impfung 2018, vollständig",
+      "status": "complete"
+    },
+    {
+      "name": "Hepatitis A/B",
+      "subtitle": "letzte Impfung 2020, vollständig",
+      "status": "complete"
+    },
+    {
+      "name": "COVID-19",
+      "subtitle": "letzte Impfung 2023, vollständig",
+      "status": "complete"
+    },
+    {
+      "name": "Influenza",
+      "subtitle": "letzte Impfung 2024, vollständig",
+      "status": "complete"
+    },
+    {
+      "name": "FSME",
+      "subtitle": "letzte Impfung 2022, vollständig",
+      "status": "complete"
+    }
+  ],
+  "vorsorge": [
+    {
+      "name": "Vorsorge-Check-up",
+      "icon": "🫀",
+      "due_date": "Jan 2026",
+      "due_text": "in ca. 2 Monaten",
+      "checked": true
+    },
+    {
+      "name": "Urologe",
+      "icon": "🫘",
+      "due_date": "Nov 2025",
+      "due_text": "in ca. 1 Monat",
+      "checked": false
+    },
+    {
+      "name": "Blutentnahme",
+      "icon": "🩸",
+      "due_date": "Dez 2025",
+      "due_text": "in ca. 1.5 Monaten",
+      "checked": false
+    },
+    {
+      "name": "Augenarzt",
+      "icon": "👓",
+      "due_date": "Apr 2026",
+      "due_text": "in ca. 5 Monaten",
+      "checked": false
+    }
+  ],
+  "vergangene_vorsorge": [
+    {
+      "name": "Zahnarzt",
+      "due_date": "Jan 2025"
+    },
+    {
+      "name": "Allgemeiner Check-up",
+      "due_date": "Mär 2025"
+    }
+  ],
+  "profile": {
+    "geburtsdatum": "12.05.1991",
+    "geschlecht": "divers",
+    "vorerkrankungen": [],
+    "familienanamnese": [
+      {
+        "verwandter": "Mutter",
+        "erkrankung": "Diabetes"
+      },
+      {
+        "verwandter": "Großvater",
+        "erkrankung": "Bluthochdruck"
+      }
+    ],
+    "allergien": [],
+    "sportverhalten": "mittel",
+    "ernaehrung": "vegetarisch",
+    "rauchen": {
+      "ja": false,
+      "haeufigkeit": ""
+    },
+    "alkohol": {
+      "ja": false,
+      "haeufigkeit": ""
+    },
+    "gewicht": "72",
+    "groesse": "178"
+  },
+  "chat_demo": [
+    {
+      "role": "bot",
+      "text": "Hallo Alex! Wie geht es dir heute?",
+      "choices": [
+        "Mir geht es gut",
+        "Mir geht es schlecht"
+      ]
+    },
+    {
+      "role": "user",
+      "text": "Mir geht es schlecht"
+    },
+    {
+      "role": "bot",
+      "text": "Das tut mir leid zu hören. Was hast du genau?"
+    }
+  ]
+}

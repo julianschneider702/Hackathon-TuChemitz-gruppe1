@@ -1,0 +1,10 @@
+name,letzte_impfung,intervall_jahre,vollstaendig
+Tetanus,15.01.2023,10,ja
+Borreliose,10.06.2022,3,ja
+Masern,01.06.2018,,ja
+COVID-19,12.09.2023,1,nein
+Influenza,03.10.2024,1,ja
+FSME,22.04.2022,3,ja
+Hepatitis A/B,11.11.2020,,ja
+HPV,15.03.2024,,ja
+Pneumokokken,05.08.2019,6,ja
